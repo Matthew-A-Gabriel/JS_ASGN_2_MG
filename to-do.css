@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(windows.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+}
+
+#top{
+
+    margin: 0rem 0rem 1rem 0rem;
+    padding: 0.5rem;
+    text-align: center;
+    height: 16rem;
+    font-size: larger;
+}
+
+#lst_inpt{
+    width: 50vw;
+    height: 2rem;
+}
+
