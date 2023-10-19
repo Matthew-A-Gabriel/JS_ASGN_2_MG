@@ -4,11 +4,11 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
 }
 
 #top{
-
     margin: 0rem 0rem 1rem 0rem;
     padding: 0.5rem;
     text-align: center;
@@ -21,3 +21,42 @@ body{
     height: 2rem;
 }
 
+#add_task{
+    width: 5vw;
+    box-shadow: 1px 1px 1px gray;
+    background-color: transparent;
+    margin: 1vw;
+    font-size: 1.5rem;
+}
+
+
+#window_list{
+display: flex;
+flex-wrap: wrap;
+}
+
+.listed_p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    border: 0.1rem solid black;
+    box-shadow: 1px 1px 1px gray;
+    width: 70vw;
+    margin: auto;
+}
+
+.cross_out{
+width: 8vw;
+box-shadow: 1px 1px 1px gray;
+background-color: transparent;
+margin: 1vw;
+font-size: 1.5rem;
+}
+
+.remover{
+width: 8vw;
+box-shadow: 1px 1px 1px gray;
+background-color: transparent;
+margin: 1vw;
+font-size: 1.5rem;
+}
