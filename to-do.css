@@ -26,37 +26,52 @@ body{
     box-shadow: 1px 1px 1px gray;
     background-color: transparent;
     margin: 1vw;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    min-width: min-content;
 }
 
-
 #window_list{
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div_task{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 .listed_p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 0.25rem;
     border: 0.1rem solid black;
     box-shadow: 1px 1px 1px gray;
-    width: 70vw;
+    min-width: 60vw;
     margin: auto;
+    height: 2rem;
 }
 
 .cross_out{
-width: 8vw;
-box-shadow: 1px 1px 1px gray;
-background-color: transparent;
-margin: 1vw;
-font-size: 1.5rem;
+    width: 8vw;
+    box-shadow: 1px 1px 1px gray;
+    background-color: transparent;
+    margin: 1vw;
+    font-size: 1rem;
+    min-width: min-content;
+    height: 2rem;
 }
 
 .remover{
-width: 8vw;
-box-shadow: 1px 1px 1px gray;
-background-color: transparent;
-margin: 1vw;
-font-size: 1.5rem;
+    width: 8vw;
+    box-shadow: 1px 1px 1px gray;
+    background-color: transparent;
+    margin: 1vw;
+    font-size: 1rem;
+    min-width: min-content;
+    height: 2rem;
+}
+
+.strike_through{
+    text-decoration: line-through
 }
