@@ -1,9 +1,9 @@
 // Variables
 const add_button = document.getElementById("add_task");
 const list_input = document.getElementById("lst_inpt");
-const task_area = document.getElementById("window_list")
-const x_out = document.getElementById("x_out")
-const destroyer = document.getElementById("destroyer")
+const task_area = document.getElementById("window_list");
+const x_out = document.getElementById("x_out");
+const destroyer = document.getElementById("destroyer");
 
 // Main Function where all the magic happens
 function create_task (){
@@ -17,7 +17,7 @@ function create_task (){
     const finished = document.createElement("button");
 
     // assigning classes to the elemtns
-    container.classList.add("div_task")
+    container.classList.add("div_task");
     item.classList.add("listed_p");
     cross.classList.add("cross_out");
     finished.classList.add("remover");
@@ -28,14 +28,14 @@ function create_task (){
     finished.innerText = "X";
 
     // contained in a contianer then that container in the task_area
-    task_area.appendChild(container)
+    task_area.appendChild(container);
     container.appendChild(item);
     container.appendChild(cross);
     container.appendChild(finished);
 
     // Assign strike through class when cross button pushed
     function strike_through (){
-        item.classList.add("strike_through")
+        item.classList.add("strike_through");
     }
     
     // event Listener for the Cross out
