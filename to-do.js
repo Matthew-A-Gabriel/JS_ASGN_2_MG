@@ -10,6 +10,11 @@ function create_task (){
     // tasking_input text variable
     var task_text = list_input.value;
 
+    // if input is blank, don't make a item.
+    if(list_input.value===""){
+        return
+    }
+
     // making the new elements for the tasking
     const container = document.createElement("div")
     const item = document.createElement("p");
